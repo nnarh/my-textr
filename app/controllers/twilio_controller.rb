@@ -13,5 +13,4 @@ class TwilioController < ApplicationController
                                                 :body => "#{message}"})
     redirect_to dashboard_path
   end
-
 end
