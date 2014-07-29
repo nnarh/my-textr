@@ -1,5 +1,4 @@
 class TwilioController < ApplicationController
-
   def send_sms
     message = params[:message]
     number = params[:number]
